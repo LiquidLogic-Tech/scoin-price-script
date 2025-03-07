@@ -7,7 +7,7 @@ import { execSync } from "child_process";
 dotenv.config();
 
 const scallopPriceApi = "https://sdk.api.scallop.io/api/market/history";
-const startTimestamp = 1708776000000; // 2024-02-24 12:00:00
+const startTimestamp = 1727740800000; // 2024-10-01 00:00:00 GMT+00:00
 
 const retrieveTimestampFromLocal = () => {
   try {
